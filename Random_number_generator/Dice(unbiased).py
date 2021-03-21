@@ -1,9 +1,13 @@
 from random import *
 k = 0
 while k<1:
-    x = input("Press Enter to roll the dice")
-    i = 0
-    while i<1:
-        a = randint(1,7)
-        print(a)
+    x = input("Press Enter to roll the dice...(Press 0 to Quit)")
+    if x =="0":
         break
+    else:
+        i = 0
+        while i<1:
+            a = randint(1,6)
+            print(a)
+            break
+print("Thank you for playing the game")

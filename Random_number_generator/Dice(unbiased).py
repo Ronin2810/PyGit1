@@ -10,4 +10,4 @@ while k<1:
             a = randint(1,6)
             print(a)
             break
-print("Thank you for playing the game")
+print("Thank you for playing the game...")
